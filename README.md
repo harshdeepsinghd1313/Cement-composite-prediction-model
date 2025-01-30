@@ -1,6 +1,6 @@
 # Cement-composite-prediction-model
 ## AIM OF THE PROJECT 
-### To Predict Ultimate compressive strenght of Cement Composite mixture using Machine Learning Technique.
+ To Predict Ultimate compressive strenght of Cement Composite mixture using Machine Learning Technique.
 
 ## Summary of the Project
 Objective:
@@ -40,16 +40,21 @@ This project successfully demonstrates how machine learning and deep learning te
 To build an accurate machine learning model for predicting ultimate compressive strength of cement composite mixtures, the following techniques were applied:
 
 1️⃣ Data Preprocessing & Feature Engineering
+
 ✅ Handling Missing Values: Checked for null values and used appropriate imputation techniques if needed.
+
 ✅ Feature Selection: Identified key independent variables affecting compressive strength.
+
 ✅ Feature Scaling (MinMaxScaler):
 
 Applied MinMaxScaler to normalize numerical features.
 Ensured all features contributed equally to the learning process.
+
 2️⃣ Model Selection & Implementation
 🔹 Linear Regression (Baseline Model)
 Implemented Multiple Linear Regression to establish a baseline performance.
 Checked the relationship between features and output strength.
+
 🔹 Artificial Neural Network (ANN)
 Designed a Deep Learning model with multiple layers.
 
@@ -63,9 +68,13 @@ Optimization & Tuning:
 Used Adam Optimizer for efficient weight updates.
 Mean Squared Error (MSE) as the loss function.
 Hyperparameter tuning: Adjusted number of neurons, layers, learning rate, and batch size for optimal performance.
+
 3️⃣ Model Evaluation & Performance Metrics
+
 ✅ R² Score (0.88): Measured how well the model explained variance in compressive strength.
+
 ✅ Mean Absolute Error (MAE): Evaluated absolute differences between actual and predicted values.
+
 ✅ Mean Squared Error (MSE): Penalized larger errors to ensure precise predictions.
 
 ### Conclusion
