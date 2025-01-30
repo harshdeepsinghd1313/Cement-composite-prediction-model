@@ -16,6 +16,7 @@ These variables significantly influence the compressive strength of the final mi
 
 Techniques Applied:
 To achieve accurate predictions, the following machine learning techniques were used:
+
 ✅ Linear Regression: Implemented as a baseline model to understand relationships between input features and output strength.
 
 ✅ Artificial Neural Network (ANN): Applied a deep learning model to capture complex non-linear patterns within the dataset. ANN was optimized through hyperparameter tuning, including adjustments in the number of layers, neurons, activation functions, and learning rate.
